@@ -1,8 +1,4 @@
-﻿using HelloWorld.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-
-namespace HelloWorld.Controllers
+﻿namespace HelloWorld.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,6 +11,8 @@ namespace HelloWorld.Controllers
 
         public IActionResult Index()
         {
+            string staffid = "1345";
+            ViewBag.staffid = staffid;
             return View();
         }
 

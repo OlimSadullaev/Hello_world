@@ -1,3 +1,7 @@
+global using HelloWorld.Models;
+global using Microsoft.AspNetCore.Mvc;
+global using System.Diagnostics;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
